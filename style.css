@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border-radius: 50px;
+}
+
+#sparks {
+    border: #333;
+    border-width: 90%;
+    border-style: solid;
+
+}
+
+header {
+    background-color: #ff9933;
+    /*color: transparent;
+    background-image: url(Taylor swift.png);
+    -webkit-background-clip: text;*/
+    padding: 20px;
+    text-align: center;
+    animation: header 20s infinite;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 0px 0px 10px #333;
+    font-family: Protest Revolution, serif;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #ff9933;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: Pirata One, serif;
+
+}
+
+p,
+li {
+    font-family: Rochester, serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes header {
+    0% {
+        background-color: rgb(111, 175, 111);
+    }
+
+    10% {
+        background-color: goldenrod;
+    }
+
+    20% {
+        background-color: plum;
+    }
+
+    30% {
+        background-color: red;
+    }
+
+    40% {
+        background-color: turquoise;
+    }
+
+    50% {
+        background-color: black;
+    }
+
+    60% {
+        background-color: pink;
+    }
+
+    70% {
+        background-color: grey;
+    }
+
+    80% {
+        background-color: wheat;
+    }
+
+    90% {
+        background-color: #011c36;
+    }
+
+    100% {
+        background-color: #635b3a;
+    }
+}
+
+.enchant {
+    width: 50%;
+}
+
+.social icon {
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    font-size: 25px;
+    color: transparent;
+    background-image: linear-gradient(#405DE6, #5851D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+
+}
+
+.section b {
+    position: absolute;
+    top: 13px;
+    left: 250px;
+    font-size: 25px;
+    color: transparent;
+    background-image: linear-gradient(#FF0000, #FF0000);
+    -webkit-background-clip: text;
+}
+
+.section c {
+    position: absolute;
+    top: 13px;
+    left: 300px;
+    font-size: 30px;
+    color: transparent;
+    background-image: linear-gradient(#1DA1F2, #1DA1F2);
+    -webkit-background-clip: text;
+}
+
+.section d {
+    position: absolute;
+    top: 13px;
+    left: 350px;
+    font-size: 25px;
+    color: transparent;
+    background-image: linear-gradient(#1877F2, #1877F2);
+    -webkit-background-clip: text;
+}
+
+.section e {
+    position: absolute;
+    top: 13px;
+    left: 400px;
+    font-size: 25px;
+    color: transparent;
+    background-image: linear-gradient(#0A66C2, #0A66C2);
+    -webkit-background-clip: text;
+}
